@@ -32,9 +32,11 @@ graph TB
     ScriptScan --> SC3[script-args: Arguments]
     end
 
-    classDef default fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef section fill:#bbf,stroke:#333,stroke-width:2px;
-    class NMAP,FirewallIDS,ServiceVersion,OSDetection,ScriptScan section
+    classDef default fill:#e3f2fd,stroke:#2196f3,stroke-width:2px,color:#000;
+    classDef section fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000;
+    classDef root fill:#0d47a1,stroke:#002171,stroke-width:4px,color:#fff;
+    class NMAP root;
+    class FirewallIDS,ServiceVersion,OSDetection,ScriptScan section;
 ```
 
 ## Evasion de Firewall/IDS

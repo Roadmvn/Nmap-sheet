@@ -1,3 +1,5 @@
+# Techniques de Scan NMAP
+
 ```mermaid
 graph TB
     NMAP[NMAP]
@@ -25,9 +27,11 @@ graph TB
     PortSpec --> P3[r: Scan séquentiel]
     end
 
-    classDef default fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef section fill:#bbf,stroke:#333,stroke-width:2px;
-    class NMAP,ScanTech,HostDisc,PortSpec section
+    classDef default fill:#e3f2fd,stroke:#2196f3,stroke-width:2px,color:#000;
+    classDef section fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000;
+    classDef root fill:#0d47a1,stroke:#002171,stroke-width:4px,color:#fff;
+    class NMAP root;
+    class ScanTech,HostDisc,PortSpec section;
 ```
 
 ## Types de Scan
